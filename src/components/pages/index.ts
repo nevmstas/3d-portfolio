@@ -1,3 +1,4 @@
 import Hello from './hello'
+import About from './about'
 
-export { Hello }
+export { Hello, About }
