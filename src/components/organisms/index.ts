@@ -1,7 +1,7 @@
-import Hero from './hero'
+import Greetings from './greetings'
 import Navbar from './navbar'
 
 export {
-    Hero,
+    Greetings,
     Navbar
 }

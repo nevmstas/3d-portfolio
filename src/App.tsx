@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
-import { Hero, Navbar } from "./components/organisms"
+import { Navbar } from "./components/organisms"
+import { Hello } from "./components/pages"
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
       <div className="realative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
-          <Hero />
+          <Hello />
         </div>
       </div>
     </BrowserRouter>
