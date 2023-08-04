@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
 import { Navbar } from "./components/organisms"
-import { Hello, About, Experience } from "./components/pages"
+import { Hello, About, Experience, Tech } from "./components/pages"
 
 function App() {
 
@@ -12,6 +12,7 @@ function App() {
           <Hello />
           <About />
           <Experience />
+          <Tech />
         </div>
       </div>
     </BrowserRouter>
