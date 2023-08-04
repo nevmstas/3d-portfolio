@@ -2,28 +2,26 @@ import { VerticalTimelineElement } from "react-vertical-timeline-component"
 import 'react-vertical-timeline-component/style.min.css';
 import { Badge } from "..";
 import { Tooltip } from 'react-tooltip'
-
+interface ISkill {
+    title: string,
+    bgColor: string
+}
+interface ILocation {
+    icon: string,
+    name: string
+}
 interface IExperienceCard {
     title: string,
     companyName: string
     icon: string
     iconBg: string
     date: string
-    points: string[]
+    points: string[],
+    skills: ISkill[],
+    location: ILocation
 }
 
-const skills = [
-    { title: 'React', bgColor: 'bg-[#61dafb]' },
-    { title: 'AWS', bgColor: 'bg-[#ff9d00]' },
-    { title: 'Storybook', bgColor: 'bg-[#ff4785]' },
-    { title: 'Typescript', bgColor: 'bg-[#3178c6]' },
-    { title: 'Javascript', bgColor: 'bg-[#f7df1e]' },
-    { title: 'Tailwindcss', bgColor: 'bg-[#38bef8]' },
-    { title: 'Redux', bgColor: 'bg-[#764abc]' }
-]
-
-
-const ExperienceCard = ({ date, iconBg, icon, title, companyName, points }: IExperienceCard) => {
+const ExperienceCard = ({ date, iconBg, icon, title, companyName, points, skills, location }: IExperienceCard) => {
     return <VerticalTimelineElement contentStyle={{
         background: '#1d1836', color: '#fff',
     }}
@@ -38,7 +36,7 @@ const ExperienceCard = ({ date, iconBg, icon, title, companyName, points }: IExp
             <h3 className="text-white text-[24px] text-bold">{title}</h3>
             <div className="flex">
                 <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>{companyName}</p>
-                <span className="ml-2 cursor-pointer" data-tooltip-id="my-tooltip" data-tooltip-content="Remote">🌍</span>
+                <span className="ml-2 cursor-pointer" data-tooltip-id="my-tooltip" data-tooltip-content={location.name}>{location.icon}</span>
                 <Tooltip id="my-tooltip" place="right" />
             </div>
         </div>
