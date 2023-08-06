@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
-import { Navbar } from "./components/organisms"
-import { Hello, About, Experience, Tech } from "./components/pages"
+import { Navbar, Stars } from "./components/organisms"
+import { Hello, About, Experience, Tech, Contact } from "./components/pages"
 
 function App() {
 
@@ -12,7 +12,11 @@ function App() {
           <Hello />
           <About />
           <Experience />
-          <Tech />
+          <div className="relative z-0">
+            <Tech />
+            <Contact />
+            <Stars />
+          </div>
         </div>
       </div>
     </BrowserRouter>

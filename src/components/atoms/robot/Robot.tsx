@@ -20,7 +20,7 @@ const RobotCanvas = () => {
     return <Canvas
         frameloop="demand"
         shadows
-        camera={{ fov: 35 }}
+        camera={{ position: [20, 3, 5], fov: 35 }}
         gl={{ preserveDrawingBuffer: true }}>
         <Suspense fallback={<Loader />} >
             <OrbitControls enablePan={false} enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2} />

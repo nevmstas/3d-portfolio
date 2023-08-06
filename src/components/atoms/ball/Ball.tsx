@@ -1,6 +1,6 @@
 import { Decal, Float, OrbitControls, Preload, useTexture } from "@react-three/drei"
-import { Canvas, useFrame } from "@react-three/fiber"
-import { Suspense, useRef } from "react"
+import { Canvas } from "@react-three/fiber"
+import { Suspense } from "react"
 import Loader from "../loader"
 
 interface IBall {

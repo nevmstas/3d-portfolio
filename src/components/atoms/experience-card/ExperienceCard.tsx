@@ -44,7 +44,7 @@ const ExperienceCard = ({ date, iconBg, icon, title, companyName, points, skills
             {points.map((point, index) => <li key={index} className="text-white-100 text-[14px] pl-1 tracking-wider">{point}</li>)}
         </ul>
         <div className="flex flex-wrap gap-2 justify-center mt-5">
-            {skills.map(skill => <Badge {...skill} />)}
+            {skills.map(skill => <Badge key={skill.title} {...skill} />)}
         </div>
     </VerticalTimelineElement>
 }
