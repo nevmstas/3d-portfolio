@@ -10,7 +10,7 @@ const Robot = () => {
         <hemisphereLight intensity={5} groundColor={"black"} />
         <primitive object={robot.scene}
             scale={0.0022}
-            position={[0, -0.8, 0]}
+            position={[0, -0.9, 0]}
             rotation={[0.2, 0, 0]}
         />
     </mesh>

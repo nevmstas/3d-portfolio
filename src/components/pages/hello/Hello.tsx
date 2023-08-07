@@ -2,9 +2,9 @@ import { Robot, Scroller } from "../../atoms"
 import Greetings from "../../organisms/greetings/Greetings"
 
 const Hello = () => {
-    return <section className='relative w-full h-screen mx-auto'>
+    return <section className='w-full h-screen mx-auto'>
         <Greetings />
-        <Robot />
+            <Robot />
         <Scroller flag='#about' />
     </section>
 }

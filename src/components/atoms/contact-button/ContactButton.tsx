@@ -9,7 +9,7 @@ interface IContactButton {
 const ContactButton = ({ Icon, name, description, link }: IContactButton) => {
     return <div className="flex flex-col justify-center gap-10 bg-transparent text-white hover:text-secondary transition-all">
         <a className="flex justify-center flex-col items-center gap-1" href={link}>
-            <Icon className="w-20 h-20" />
+            <Icon className="sm:w-20 sm:h-20 w-32 h-32" />
             {name}
             {description && <p>{description}</p>}
         </a>

@@ -20,8 +20,8 @@ const Contact = () => {
         >
             <div className="flex justify-between"><p className={styles.sectionSubText}>Get in touch</p><p className={styles.sectionSubText}>{new Date().getFullYear()} Stanislav Nevmyvaka</p></div>
             <h3 className={styles.sectionHeadText}>Do you want to connect?</h3>
-            <div className="flex justify-around mt-5">
-                {contacts.map(contact => <ContactButton {...contact} />)}
+            <div className="flex justify-around mt-5 sm:flex-row flex-col">
+                {contacts.map(contact => <ContactButton key={contact.name} {...contact} />)}
             </div>
         </motion.div>
     </div>
