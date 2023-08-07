@@ -17,13 +17,11 @@ import threejs from '../assets/tech/threejs.svg'
 import typescript from '../assets/tech/typescript.png'
 import aws from '../assets/tech/aws.png'
 import rtl from '../assets/tech/rtl.png'
-import jest from '../assets/tech/jest.png'
 import solidity from '../assets/tech/solidity.png'
 import graphql from '../assets/tech/graphql.png'
 import storybook from '../assets/tech/storybook.png'
 import web3logo from '../assets/tech/web3.png'
 import js from '../assets/tech/javascript.png'
-import hardhat from '../assets/tech/hardhat.png'
 
 export const services = [
     {
@@ -71,13 +69,10 @@ export const technologies = [
     { title: 'Graphql', icon: graphql },
     { title: 'Storybook', icon: storybook },
     { title: 'AWS', icon: aws },
-    // { title: 'Jest', icon: jest },
     { title: 'React-testing-library', icon: rtl },
     { title: 'Docker', icon: docker },
     { title: 'Solidity', icon: solidity },
     { title: 'Web3js', icon: web3logo },
-    // { title: 'Ethers', icon: ethers },
-    // { title: 'Hardhat', icon: hardhat },
     { title: 'Threejs', icon: threejs },
 ]
 
