@@ -13,7 +13,7 @@ const Ball = ({ icon }: IBall) => {
         <ambientLight intensity={4} />
         <directionalLight position={[0, 0, 0.5]} />
         <mesh scale={2.75} castShadow receiveShadow>
-            <icosahedronGeometry args={[1, 1]} />
+            <icosahedronGeometry args={[1, 3]} />
             <meshStandardMaterial
                 color={"white"}
                 polygonOffset

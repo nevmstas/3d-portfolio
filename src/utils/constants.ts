@@ -64,20 +64,20 @@ export const services = [
 
 export const technologies = [
     { title: 'React', icon: react },
-    { title: 'AWS', icon: aws },
-    { title: 'Storybook', icon: storybook },
     { title: 'Typescript', icon: typescript },
     { title: 'Javascript', icon: js },
     { title: 'Tailwindcss', icon: tailwind },
     { title: 'Redux', icon: redux },
     { title: 'Graphql', icon: graphql },
-    { title: 'Jest', icon: jest },
+    { title: 'Storybook', icon: storybook },
+    { title: 'AWS', icon: aws },
+    // { title: 'Jest', icon: jest },
     { title: 'React-testing-library', icon: rtl },
     { title: 'Docker', icon: docker },
     { title: 'Solidity', icon: solidity },
     { title: 'Web3js', icon: web3logo },
-    // { title: 'Ethers', icon: ethe },
-    { title: 'Hardhat', icon: hardhat },
+    // { title: 'Ethers', icon: ethers },
+    // { title: 'Hardhat', icon: hardhat },
     { title: 'Threejs', icon: threejs },
 ]
 
@@ -89,13 +89,10 @@ export const experiences = [
         iconBg: "#0a0201",
         date: "Oct 2022 - Present",
         points: [
-            "Built a web ecosystem using React, Typescript, Tailwind, GraphQL, and Docker for businesses and freelancers.",
-            "Created user-friendly interface for managing freelance and business accounts",
-            "Implemented secure identity verification system using ID cards",
-            "Developed e-signature and invoicing features for secure document management.",
-            "Collaborated with team to ensure seamless user experience",
-            "Optimized performance and maintained code quality through regular reviews",
-            "Improved application based on user feedback and design/functionality enhancements",
+            "Built user-friendly interfaces with secure features like ID verification and e-signatures",
+            "Invented and implemented features that will simplify the use for clients, guidelines and informative downloads",
+            "Developed an informative price calculation flow",
+            "Managing and published multiple TypeScript packages from the same repository"
         ],
         location: {
             icon: '🌍',
@@ -120,10 +117,10 @@ export const experiences = [
         date: "Nov 2021 - Oct 2022",
         points: [
             "Created and extended complex architecture features to generate the UI based on the backend",
-            "Created user-friendly interface with advanced drag-and-drop features using React-DND.",
+            "Created modern report builder with advanced drag-and-drop features",
             "Improved reusability with extended custom UI library using Storybook",
-            "Automated testing with Cypress, unit tests, and snapshot tests",
-            "Collaborated with up to 10 front-end devs, effectively communicating ideas for project success",
+            "Covered 90% with unit, snapshot and end-to-end tests",
+            "Collaborated with team up to 10 Frontend engineers",
         ],
         location: {
             icon: '🌍',
@@ -147,9 +144,10 @@ export const experiences = [
         iconBg: "#D40C28",
         date: "Jun 2021 - Nov 2021",
         points: [
-            "Developed a web3 NFT card game with Ethereum tech stack.",
-            "Created smart contract features and events. Implemented GraphQL for efficient backend data retrieval.",
-            "Designed smart contract interaction architecture on the frontend.",
+            "Developed a web3 NFT card game with Web3 tech stack",
+            "Created smart contract features and events",
+            "Implemented GraphQL for efficient backend data retrieval",
+            "Designed smart contract interaction architecture on the frontend",
             "Utilized CSS animations for visually stunning UI and engaging gameplay",
         ],
         location: {
@@ -173,11 +171,10 @@ export const experiences = [
         iconBg: "#fff",
         date: "Sep 2020 - May 2021",
         points: [
-            "Developed fintech web apps with React, Typescript, and Redux",
-            "Maintained high-quality code and performance with functional components and custom hooks",
+            "Created a complex registration flow with a lot of different validation and screen transition conditions",
             "Improved reusability with UI component library built with Storybook and Rollup.",
-            "Customized Material-UI components to fit project needs and design",
-            "Ensured high code coverage with 90% snapshot and unit test coverage using Enzyme and Jest"
+            "Made a convenient filtering module for a large number of products",
+            "Ensured high code coverage with 90% snapshot and unit test coverage"
         ],
         location: {
             icon: '🇰🇬',
@@ -194,7 +191,7 @@ export const experiences = [
         ]
     },
     {
-        title: "Fullstack Engineer",
+        title: "Software Engineer",
         companyName: "FinanceSoft",
         icon: finance,
         iconBg: "#fff",
@@ -202,8 +199,6 @@ export const experiences = [
         points: [
             "Built Frontend using Angular",
             "Experienced in developing APIs using C# for seamless communication between the client and server",
-            "Skilled in working with databases and data manipulation using SQL",
-            "Adept at writing unit tests to ensure code quality and prevent bugs",
             "Supervised and trained interns in preparing and executing test plans for OnlineBank application"
         ],
         location: {
