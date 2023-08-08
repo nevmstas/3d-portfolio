@@ -8,7 +8,7 @@ const Greetings = () => {
         </div>
         <div><h1 className={`${styles.heroHeadText}`}>Hi 👋, I'm <span className='text-[#e8853f]'>Stas</span></h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                I am an Software Engineer focusing on <span className='text-[#e8853f]'>Frontend</span> who develop user interfaces and Interactivity things
+                I am a Software Engineer focusing on <span className='text-[#e8853f]'>Frontend</span> who develop user interfaces and Interactivity things
             </p>
         </div>
     </div>
