@@ -1,8 +1,10 @@
 import { BrowserRouter } from "react-router-dom"
 import { Navbar, Stars } from "./components/organisms"
 import { Hello, About, Experience, Tech, Contact } from "./components/pages"
+import { isAndroid } from "./utils/isAndroid"
 
 function App() {
+  const isAndroidPhone = isAndroid()
 
   return (
     <BrowserRouter>
@@ -13,7 +15,7 @@ function App() {
           <About />
           <Experience />
           <div className="relative z-0">
-            <Tech />
+            {isAndroidPhone || <Tech />}
             <Contact />
             <Stars />
           </div>

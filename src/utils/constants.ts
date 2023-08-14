@@ -74,6 +74,7 @@ export const technologies = [
     { title: 'Solidity', icon: solidity },
     { title: 'Web3js', icon: web3logo },
     { title: 'Threejs', icon: threejs },
+    { title: 'React-testing-library', icon: rtl },
 ]
 
 export const experiences = [
