@@ -137,7 +137,7 @@ export const experiences = [
         title: "Frontend Engineer",
         companyName: "Snotor",
         icon: snotor,
-        iconBg: "#D40C28",
+        iconBg: "#e21d25",
         date: "Jun 2021 - Nov 2021",
         points: [
             "Developed a web3 NFT card game with Web3 tech stack",

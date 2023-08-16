@@ -25,7 +25,7 @@ const ExperienceCard = ({ date, iconBg, icon, title, companyName, points, skills
     return <VerticalTimelineElement contentStyle={{
         background: '#1d1836', color: '#fff',
     }}
-        contentArrowStyle={{ borderRight: '10px solid #1d1836' }}
+        // contentArrowStyle={{ borderRight: '8px solid #1d1836' }}
         date={date}
         iconStyle={{ background: iconBg }}
         icon={<div className="flex justify-center items-center w-full h-full">
