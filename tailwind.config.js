@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   mode: "jit",
   theme: {
     extend: {
@@ -24,6 +21,14 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      keyframes: {
+        blinker: {
+          "50%": { opacity: "0" },
+        },
+      },
+      animation: {
+        blink: "blinker 1s linear infinite",
+      },   
     },
   },
   plugins: [],
